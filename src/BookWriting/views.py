@@ -10,4 +10,4 @@ class BookViewSet(ModelViewSet):
 
 class SectionViewSet(ModelViewSet):
     serializer_class = SectionSerializer
-    queryset = Section.objects.filter()
+    queryset = Section.objects.all()
