@@ -15,3 +15,7 @@ Make sure to activate the virtual environment
 ​use command: python manage.py runserver
 by default port will be 8000 but you can specify any other port number
 like (python manage.py runserver 9000)
+
+**Run the tests**
+Make sure to activate the virtual environment
+​use command: pytest
