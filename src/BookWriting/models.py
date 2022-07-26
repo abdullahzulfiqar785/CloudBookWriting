@@ -9,6 +9,7 @@ class Book(models.Model):
     title = models.CharField(max_length=255)
     title = models.CharField(max_length=255)
     title = models.CharField(max_length=255)
+    title = models.CharField(max_length=255)
 
 
 '''Here This model contain the foreign key of book as well as it own.
