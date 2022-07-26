@@ -5,6 +5,7 @@ from django.db import models
 
 class Book(models.Model):
     title = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
 
 
 '''Here This model contain the foreign key of book as well as it own.
@@ -15,6 +16,7 @@ start of book.'''
 
 
 class Section(models.Model):
+    title = models.CharField(max_length=255)
     title = models.CharField(max_length=255)
     book = models.ForeignKey(
         Book, on_delete=models.CASCADE, related_name="sections", null=True, blank=True)
